@@ -1,18 +1,11 @@
 {
-  "name": "webserver",
+  "name": "@panopticon/webserver",
+  "version": "0.1.0",
+  "private": true,
   "main": "server.js",
-  "description": "",
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.21.1",
-    "next": "^13.0.0"
-  },
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": []
+    "dev": "node server.js",
+    "build": "echo 'No build step required'",
+    "start": "node server.js"
+  }
 }
